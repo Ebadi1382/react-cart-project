@@ -1,0 +1,67 @@
+.style-text-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media (max-width: 630px) {
+    .style-text-products {
+        transform: scale(.8);
+    }
+}
+@media (max-width: 500px) {
+    .style-text-products {
+        transform: scale(.7);
+    }
+}
+@media (max-width: 440px) {
+    .style-text-products {
+        transform: scale(.6);
+    }
+}
+@media (max-width: 380px) {
+    .style-text-products {
+        transform: scale(.5);
+    }
+}
+.text {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+
+    .wrapper {
+        padding-left: .8rem;
+        padding-right: .8rem;
+
+        .letter {
+            transition: ease-out 1s;
+            transform: translateY(40%);
+        }
+
+        .shadow {
+            transform: scale(1, -1);
+            color: #999;
+            transition: ease-in 5s, ease-out 5s;
+        }
+
+        &:hover {
+            .letter {
+                transform: translateY(-200%);
+            }
+
+            .shadow {
+                opacity: 0;
+                transform: translateY(200%);
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .center-products-exist {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 770px) {
+  #cart-center-totalPrice {
+    text-align: center;
+  }
+}
+@media (max-width: 770px) {
+  #cart-image-Exist {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 770px) {
+  .cart-all-product-exist {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+}
+@media (max-width: 992px) {
+  .cartExist {
+    margin-bottom: 26rem;
+  }
+}

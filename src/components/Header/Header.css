@@ -1,0 +1,35 @@
+.style-profile-pic {
+    border-radius: 50%;
+}
+.num-cart-header {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -11px;
+    right: -8px;
+    background-color: #9665d8 ;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+  }
+  .button-header-login {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    outline: none;
+    border: 0;
+  }
+  @media (max-width: 800px) {
+    #SearchHeaderExist {
+      display: none;
+    }
+  }
+  @media (max-width: 771px) {
+    #headerExist {
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }

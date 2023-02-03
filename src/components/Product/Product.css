@@ -1,0 +1,138 @@
+.main-product {
+  margin-bottom: 10rem;
+}
+.main-type-product {
+  display: flex;
+  justify-content: space-between;
+}
+.type-product {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .productBtnExist {
+    display: none;
+  }
+}
+.btn-type-product {
+  background-color: #212123 !important;
+  color: #fff;
+  border: 1px solid #64676c;
+  border-radius: 50px !important;
+  margin-right: 1rem;
+  padding: 0.4rem 2rem !important;
+}
+.btn-type-product:hover {
+  background-color: #161618 !important;
+}
+.btn-type-product:focus {
+  background-color: #9665d8 !important;
+}
+.all-product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.product-detail {
+  width: 15rem;
+  height: 30rem;
+  margin: 1rem;
+  background-color: #28282a;
+  color: #fff;
+}
+@media (max-width: 1126px) {
+  .product-detail {
+    width: 28.5%;
+  }
+}
+@media (max-width: 800px) {
+  .product-detail {
+    width: 45%;
+  }
+}
+@media screen and (min-width:550px) and (max-width: 800px) {
+  .product-detail {
+    width: 42%;
+  }
+}
+@media (max-width: 550px) {
+  .product-detail {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .product-otherProduct {
+    height: 20rem!important;
+  }
+}
+@media (max-width: 450px) {
+  .product-otherProduct {
+    height: 18rem!important;
+  }
+}
+@media (max-width: 450px) {
+  .product-otherProduct-title {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .product-otherProduct-text {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .product-otherProduct-text-detail {
+    margin-top: -3rem!important;
+  }
+}
+
+.swiper-slide-main {
+  margin-top: 4.5rem;
+}
+.arrow-div-swiper {
+  border: #8b50c8 1px solid;
+  border-radius: 50%;
+  padding: 0.35rem 0.5rem;
+  color: #8b50c8;
+}
+.arrow-div-swiper:active {
+  background-color: #8b50c8;
+  color: #472568;
+}
+.main-add-cart-product {
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.text-add-cart {
+  margin: 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+/* 
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 500px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+} */

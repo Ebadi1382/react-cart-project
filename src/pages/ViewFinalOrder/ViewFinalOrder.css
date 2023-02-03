@@ -1,0 +1,12 @@
+.main-viewFinal {
+    background-color: #191919;
+}
+@media (max-width: 992px) {
+    .final-product-exist {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+}

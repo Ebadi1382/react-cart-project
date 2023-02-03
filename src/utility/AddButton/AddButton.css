@@ -1,0 +1,10 @@
+.btn-product-plus {
+    border: 1px solid #8b50c8 !important;
+    border-radius: 50% !important;
+    color: #8b50c8 !important;
+    background-color: #28282a !important ;
+}
+.btn-product-plus:hover {
+    background-color: #8a33db !important;
+    color: #fff !important;
+}

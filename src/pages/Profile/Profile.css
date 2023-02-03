@@ -1,0 +1,50 @@
+.main-profile {
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.line {
+  width: 55%;
+  height: 1px;
+  background-color: #949494;
+  margin: 0 auto;
+}
+.input-profile-password {
+  background-color: #191919;
+  border: 0;
+  outline: none;
+  color: #fff;
+  text-align: end;
+}
+.main-profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9rem;
+}
+.image-profile-avatar {
+  border-radius: 15px;
+  transform: scale(4);
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.custom-file-upload:hover {
+  border: 1px solid #5c5c5c;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.input-upload-image {
+  display: none;
+}
+@media (max-width: 767px) {
+  .main-profile-exist {
+      height: 260vh;
+  }
+}

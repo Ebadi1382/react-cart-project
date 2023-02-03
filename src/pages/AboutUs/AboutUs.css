@@ -1,0 +1,29 @@
+.main-aboutUs {
+  width: 80%;
+  height: 30rem;
+  background-color: #191919;
+  display: flex;
+  justify-content: space-around;
+}
+.col-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.col-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.grid-style {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1.3rem;
+}
+@media (max-width: 992px) {
+    .main-aboutUs {height: 40rem;display: flex;flex-direction: column;align-items: center;}
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
